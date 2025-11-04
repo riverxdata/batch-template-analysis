@@ -6,5 +6,5 @@ bash tests/run_local.sh
 ```
 
 ## Prerequisites
-Install micromamba
-https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
+Install pixi
+https://pixi.sh/latest/installation/
