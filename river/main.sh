@@ -19,6 +19,7 @@ echo ""
 # Parameters
 echo ">> Parameters:"
 echo "---------------------------------------------"
+echo "Repeat       : $repeat"
 echo "File Path    : $file"
 echo "Folder Path  : $dir"
 echo "Integer      : $integer"
@@ -45,6 +46,13 @@ echo ""
 
 # Placeholder for Main Script Execution
 echo "Put your main script here, using arguments from environment variables."
+
+# Saying Hello World
+for i in  $(seq 1 $repeat);
+do
+    echo Hello World $i
+    sleep 1
+done
 
 echo ""
 echo "✔ Analysis Completed!"
